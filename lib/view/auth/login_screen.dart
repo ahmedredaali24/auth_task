@@ -16,10 +16,10 @@ class LoginScreen extends StatelessWidget {
 
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
   final TextEditingController mailController =
-  TextEditingController(text: "ahmedreda@gmail.com");
+  TextEditingController();
 
   final TextEditingController passwordController =
-  TextEditingController(text: "Aa123456789ahmed");
+  TextEditingController();
 
   bool isPasswordStrong(String password) {
     if (password.length < 8) {
